@@ -1,0 +1,21 @@
+{
+  "name": "cclilshy/laravel-component-core",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Cclilshy\\LaravelComponentCore\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "cclilshy",
+      "email": "jingnigg@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^10.0",
+    "illuminate/filesystem": "^10.40",
+    "illuminate/container": "^10.40",
+    "illuminate/events": "^10.40"
+  }
+}
