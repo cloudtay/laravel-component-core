@@ -44,6 +44,7 @@ namespace Cclilshy\LaravelComponentCore;
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Filesystem\Filesystem;
+use Illuminate\Translation\Translator;
 
 /**
  * 模板引擎只在WebApplication中使用,要单拎
@@ -73,6 +74,12 @@ class Kernel
      * @var Dispatcher $eventDispatcher
      */
     public Dispatcher $eventDispatcher;
+
+    /**
+     * 多语言组件
+     * @var Translator $translator
+     */
+    public Translator $translator;
 
     /**
      * 初始化Laravel设计模式底层依赖

@@ -16,6 +16,7 @@
     "illuminate/support": "^10.0",
     "illuminate/filesystem": "^10.40",
     "illuminate/container": "^10.40",
-    "illuminate/events": "^10.40"
+    "illuminate/events": "^10.40",
+    "illuminate/translation": "^10.41"
   }
 }
